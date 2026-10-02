@@ -1,0 +1,26 @@
+{
+  "name": "pi-mermaid-extra",
+  "version": "1.0.0",
+  "description": "Render Mermaid diagram types unsupported by pi's built-in renderer (gantt, radar, treemap, venn, block, C4, agentflow, …) as Unicode art directly in the pi TUI",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "mermaid",
+    "tui",
+    "terminal",
+    "diagram",
+    "ascii-art"
+  ],
+  "pi": {
+    "extensions": ["./extensions/mermaid-extra/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "files": [
+    "extensions"
+  ]
+}
